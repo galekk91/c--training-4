@@ -4,19 +4,22 @@ using System.Text;
 
 namespace ConsoleApp1
 {
-    class BankAccount
+    public class BankAccount
     {
-        public class BankAccount
+        public string Number { get; }
+        public string Owner { get; set; }
+        public decimal Balance { get; }
+        public BankAccount(string name, decimal InitialBalance)
         {
-            public string Number { get; }
-            public string Owner { get; set; }
-            public decimal Balance { get; }
+            this.Owner = name;
+            this.Balance = InitialBalance;
+        }
 
-            public void MakeDeposit(decimal amount, DateTime date, string note)
-            {
-            }
-            public voide MakeWithdrawal(decimal amount, DateTime date, string note)
-            {
-            }
+        public void MakeDeposit(decimal amount, DateTime date, string note)
+        {
+        }
+        public void MakeWithdrawal(decimal amount, DateTime date, string note)
+        {
+        }
     }
 }
