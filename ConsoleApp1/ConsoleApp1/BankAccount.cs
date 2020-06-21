@@ -6,6 +6,7 @@ namespace ConsoleApp1
 {
     public class BankAccount
     {
+        private static int AccountNumberSeed = 1234567890;
         public string Number { get; }
         public string Owner { get; set; }
         public decimal Balance { get; }
@@ -13,6 +14,8 @@ namespace ConsoleApp1
         {
             this.Owner = name;
             this.Balance = InitialBalance;
+            this.Number = AccountNumberSeed.ToString();
+            AccountNumberSeed++;
         }
 
         public void MakeDeposit(decimal amount, DateTime date, string note)

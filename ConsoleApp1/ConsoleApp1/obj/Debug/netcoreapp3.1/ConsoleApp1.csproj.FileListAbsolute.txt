@@ -10,3 +10,4 @@ C:\Users\dgal\Desktop\c#exercises\4\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp
 C:\Users\dgal\Desktop\c#exercises\4\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
 C:\Users\dgal\Desktop\c#exercises\4\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
 C:\Users\dgal\Desktop\c#exercises\4\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
+C:\Users\dgal\Desktop\c#exercises\4\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
